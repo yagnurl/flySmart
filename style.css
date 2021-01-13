@@ -1,0 +1,112 @@
+html,body {
+  font-family: sans-serif;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 2px;
+   
+}
+.container {
+ text-align: center;
+ }
+
+.nav-item {
+    font-size: 20px;
+}
+
+img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.carousel-item>img {
+    height: 60vh;
+    object-fit: cover;
+}
+
+.bg-footer {
+    background-color: #15132c;
+  
+}
+
+.card-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight:600;
+    color: #15132c;
+}
+
+h1 , p{
+    color: #15132c;
+}
+
+ul li a {
+    font-size: 15px;
+    line-height: 30px;
+    text-decoration: none !important;
+}
+
+
+.chat-box {
+display: flex ;
+background-color: #fcfcfc !important;
+position: fixed;
+opacity: 1 !important;
+right: 0 !important;
+bottom: 0;
+width: 400px;
+height: 80vh;
+box-shadow: 15px 15px 15px 15px black;;
+}
+
+
+#chatIcon img {
+   
+    
+    margin: 10px;
+    width: 75px !important;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+}
+
+#chatIcon {
+    display: none;
+}
+input {
+    background-color: #c4c4c4;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    width: 75%;
+}
+
+.message-area {
+    background-color: #e4bf5b;
+    position: relative;
+    border-radius: 15px;
+    color: #fff;
+    max-width: 75%;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+}
+
+.me {
+    background-color: #8d897d;
+    border-radius: 15px;
+    color: #fff;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+   
+    margin: 3px;
+    margin-left: 70%;
+    right: 10px !important;
+    
+
+}
+
